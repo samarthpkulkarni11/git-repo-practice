@@ -1,12 +1,9 @@
 # Pull Request Template
 
-## Description
-- Optimized Data Retrieval: Updated the product search function to use the select operator, ensuring only necessary columns are retrieved for improved performance.
-- Temporary Response Structure: Temporarily structured the search response as a plain map to accommodate the updated functionality, including SKU parameters, categories, and tenant ID.
-Approach 1: This implementation represents approach 1, focusing on data optimization and an efficient response format for product search.
+## PR Description
+
 
 ## Related Issue
-Fixes #30 
 
 ## Type of Change
 Please select the relevant option:
