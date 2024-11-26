@@ -15,3 +15,11 @@ console.log(myobj)
 
 console.log(myobj.name)
 
+console.log(myobj.name )
+
+console.log(myobj.name )
+
+console.log(myobj.name)
+
+
+
