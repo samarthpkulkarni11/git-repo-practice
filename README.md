@@ -25,7 +25,8 @@ Git is a powerful distributed version control system that allows developers to t
 This repository focuses on practicing the following concepts:  
 - Creating a repository  
 - Managing branches  
-- Committing changes  
+- Committing changes
+- Log, Revert & Reset Commits
 - Working with remote repositories  
 - Merging and rebasing branches  
 
