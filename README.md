@@ -1,4 +1,4 @@
-# Git & GitHub Practice  
+# GitHub Commands Practice  
 
 This repository is being used for practicing Git-related commands, starting from creating a repository to advanced workflows like merging and rebasing branches.  
 
@@ -65,9 +65,72 @@ Before getting started, make sure you have:
 
 3. Alternatively, use
   ```bash
-    git switch -c feature-branch  
+    git switch -c feature-branch
+ ```
 
+### Step 3: Make Changes and Commit
 
+1. Edit files or create new ones in the branch.
+2. Stage the changes
+   ```bash  
+   git add .
+   ```
+3. Commit the changes
+   ```bash  
+   git commit -m "Add new feature"  
+   ```    
 
+### Step 4: Connect to a Remote Repository
 
-   
+1. Create a repository on GitHub.
+2. Link the local repository to the remote
+   ```bash  
+   git remote add origin <repository_url>      
+   ```
+3. Push the local code to the remote repository
+   ```bash  
+   git push -u origin main      
+   ```
+
+### Step 5: Merge Branches
+
+1. Switch to the branch you want to merge into (e.g., ```main```)
+   ```bash  
+   git checkout main
+   ```
+2. Merge the feature branch into ```main```
+   ```bash  
+   git merge feature-branch  
+   ```
+3. Resolve any conflicts if they occur and commit the merge
+   ```bash  
+   git commit
+   ```
+
+### Step 6: Rebasing
+
+1. Switch to the branch you want to rebase (e.g., ```feature-branch```)
+   ```bash  
+   git checkout feature-branch  
+   ```
+2. Rebase the branch onto ```main```
+   ```bash  
+   git rebase main    
+   ```
+   or
+   use interactive rebase with the following command
+   ```bash  
+   git rebase -i origin/main    
+   ```
+4. If conflicts occur, resolve them and continue rebasing
+   ```bash  
+   git rebase --continue  
+   ```
+5. Force-push the rebased branch to the remote repository
+   ```bash  
+   git push -force  
+   ```
+
+### Conclusion
+
+This repository serves as a practical guide for understanding and mastering Git workflows. Practice each command, experiment with the concepts, and gain confidence in managing version control 🚀.
