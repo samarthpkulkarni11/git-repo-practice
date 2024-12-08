@@ -103,8 +103,56 @@ Before getting started, make sure you have:
    ```bash  
    git push -u origin main      
    ```
+   
+## Step 5: Log, Revert and Reset Commits
 
-## Step 5: Merge Branches
+1. Viewing the Commit Log
+
+   ```bash  
+   git log      
+   ```
+
+2. Compact Log (One Line)
+
+   ```bash  
+   git log --oneline        
+   ```
+   
+3. Log for a Specific Author
+   
+   Displays changes in the working directory that have not been staged.
+
+   ```bash  
+   git log --author="Author Name"          
+   ```
+   
+4. View Uncommitted Changes
+
+   ```bash  
+   git diff          
+   ```
+   
+5. Undoing Commits and Reverting
+
+   Undo the Last Commit (Keep Changes)
+
+   ```bash  
+   git reset --soft HEAD~1            
+   ```
+
+   Undo the Last Commit (Discard Changes)
+
+   ```bash  
+   git reset --hard HEAD~1            
+   ```
+
+   Revert a Specific Commit
+
+   ```bash  
+   git revert <commit_hash>              
+   ```
+   
+## Step 6: Merge Branches
 
 1. Switch to the branch you want to merge into (e.g., ```main```)
    
@@ -124,7 +172,7 @@ Before getting started, make sure you have:
    git commit
    ```
 
-## Step 6: Rebasing
+## Step 7: Rebasing
 
 1. Switch to the branch you want to rebase (e.g., ```feature-branch```)
    
