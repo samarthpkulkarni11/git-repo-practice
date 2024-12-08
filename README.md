@@ -138,7 +138,7 @@ Before getting started, make sure you have:
    git rebase main    
    ```
    
-  or use interactive rebase with the following command
+   or use interactive rebase with the following command
   
    ```bash  
    git rebase -i origin/main    
