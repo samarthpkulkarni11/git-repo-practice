@@ -9,12 +9,12 @@ This repository is being used for practicing Git-related commands, starting from
 - [Prerequisites](#prerequisites)  
 - [Basic Setup](#basic-setup)  
 - [Branching](#branching)  
-- [Committing Changes](#committing-changes)
-- [Log,Revet and Reset Committs](#log-revert-and-reset-committs)
+- [Committing Changes](#committing-changes)  
+- [Log, Revert, and Reset Commits](#log-revert-and-reset-commits)  
 - [Working with Remote Repositories](#working-with-remote-repositories)  
 - [Merging](#merging)  
 - [Rebasing](#rebasing)  
-- [Conclusion](#conclusion)  
+- [Conclusion](#conclusion)   
 
 ---
 
