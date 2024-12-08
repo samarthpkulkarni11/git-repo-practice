@@ -51,4 +51,23 @@ Before getting started, make sure you have:
 1. Create a directory for your project:  
    ```bash  
    mkdir git-practice  
-   cd git-practice  
+   cd git-practice
+
+### Step 2: Create and Switch to a New Branch
+
+1. Create a new branch:
+   ```bash  
+   git branch feature-branch
+   
+2. Create and Switch to the new branch
+   ```bash
+   git checkout -b feature-branch
+
+3. Alternatively, use
+  ```bash
+    git switch -c feature-branch  
+
+
+
+
+   
