@@ -46,7 +46,7 @@ Before getting started, make sure you have:
 
 ## Basic Setup  
 
-### Step 1: Initialize a New Repository  
+## Step 1: Initialize a New Repository  
 
 1. Create a directory for your project:
    
@@ -54,7 +54,7 @@ Before getting started, make sure you have:
    mkdir git-practice  
    cd git-practice
 
-### Step 2: Create and Switch to a New Branch
+## Step 2: Create and Switch to a New Branch
 
 1. Create a new branch:
    
@@ -72,7 +72,7 @@ Before getting started, make sure you have:
     git switch -c feature-branch
  ```
 
-### Step 3: Make Changes and Commit
+## Step 3: Make Changes and Commit
 
 1. Edit files or create new ones in the branch.
    
@@ -88,7 +88,7 @@ Before getting started, make sure you have:
    git commit -m "Add new feature"  
    ```    
 
-### Step 4: Connect to a Remote Repository
+## Step 4: Connect to a Remote Repository
 
 1. Create a repository on GitHub.
    
@@ -104,7 +104,7 @@ Before getting started, make sure you have:
    git push -u origin main      
    ```
 
-### Step 5: Merge Branches
+## Step 5: Merge Branches
 
 1. Switch to the branch you want to merge into (e.g., ```main```)
    
@@ -124,7 +124,7 @@ Before getting started, make sure you have:
    git commit
    ```
 
-### Step 6: Rebasing
+## Step 6: Rebasing
 
 1. Switch to the branch you want to rebase (e.g., ```feature-branch```)
    
@@ -156,6 +156,6 @@ Before getting started, make sure you have:
    git push -force  
    ```
 
-### Conclusion
+## Conclusion
 
 This repository serves as a practical guide for understanding and mastering Git workflows. Practice each command, experiment with the concepts, and gain confidence in managing version control 🚀.
