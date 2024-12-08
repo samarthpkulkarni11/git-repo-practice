@@ -48,7 +48,8 @@ Before getting started, make sure you have:
 
 ### Step 1: Initialize a New Repository  
 
-1. Create a directory for your project:  
+1. Create a directory for your project:
+   
    ```bash  
    mkdir git-practice  
    cd git-practice
@@ -56,14 +57,17 @@ Before getting started, make sure you have:
 ### Step 2: Create and Switch to a New Branch
 
 1. Create a new branch:
+   
    ```bash  
    git branch feature-branch
    
-2. Create and Switch to the new branch
+3. Create and Switch to the new branch
+   
    ```bash
    git checkout -b feature-branch
 
-3. Alternatively, use
+4. Alternatively, use
+   
   ```bash
     git switch -c feature-branch
  ```
@@ -71,11 +75,15 @@ Before getting started, make sure you have:
 ### Step 3: Make Changes and Commit
 
 1. Edit files or create new ones in the branch.
+   
 2. Stage the changes
+    
    ```bash  
    git add .
    ```
+   
 3. Commit the changes
+   
    ```bash  
    git commit -m "Add new feature"  
    ```    
@@ -83,11 +91,15 @@ Before getting started, make sure you have:
 ### Step 4: Connect to a Remote Repository
 
 1. Create a repository on GitHub.
+   
 2. Link the local repository to the remote
+   
    ```bash  
    git remote add origin <repository_url>      
    ```
+   
 3. Push the local code to the remote repository
+   
    ```bash  
    git push -u origin main      
    ```
@@ -95,14 +107,19 @@ Before getting started, make sure you have:
 ### Step 5: Merge Branches
 
 1. Switch to the branch you want to merge into (e.g., ```main```)
+   
    ```bash  
    git checkout main
    ```
+   
 2. Merge the feature branch into ```main```
+   
    ```bash  
    git merge feature-branch  
    ```
+   
 3. Resolve any conflicts if they occur and commit the merge
+   
    ```bash  
    git commit
    ```
@@ -110,23 +127,31 @@ Before getting started, make sure you have:
 ### Step 6: Rebasing
 
 1. Switch to the branch you want to rebase (e.g., ```feature-branch```)
+   
    ```bash  
    git checkout feature-branch  
    ```
+   
 2. Rebase the branch onto ```main```
+   
    ```bash  
    git rebase main    
    ```
-   or
-   use interactive rebase with the following command
+   
+  or use interactive rebase with the following command
+  
    ```bash  
    git rebase -i origin/main    
    ```
-4. If conflicts occur, resolve them and continue rebasing
+
+3. If conflicts occur, resolve them and continue rebasing
+   
    ```bash  
    git rebase --continue  
    ```
-5. Force-push the rebased branch to the remote repository
+   
+4. Force-push the rebased branch to the remote repository
+   
    ```bash  
    git push -force  
    ```
