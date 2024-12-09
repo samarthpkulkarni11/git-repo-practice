@@ -82,14 +82,20 @@ Before getting started, make sure you have:
 2. Stage the changes
     
    ```bash  
-   git add .
+   git add . {adds all tracked changes at once}
    ```
    
-3. Commit the changes
+4. Commit the changes
    
    ```bash  
    git commit -m "Add new feature"  
-   ```    
+   ```
+
+5. Amending the previous commit.
+
+   ```bash  
+   git commit --amend --no-edit  
+   ```
 
 ## Step 4: Connect to a Remote Repository
 
@@ -184,13 +190,13 @@ Before getting started, make sure you have:
 5. To apply back a specific stash, from the stash list
 
    ```bash  
-   git stash apply stash@{#n} - here the #n will be denoting the stash index.          
+   git stash apply stash@{#n} - {here the #n will be denoting the stash index}.          
    ```
 
 6. To drop the stash from the list
 
    ```bash  
-   git stash drop stash@{n} - here the #n will be denoting the stash index.          
+   git stash drop stash@{n} - {here the #n will be denoting the stash index}.          
    ```
 
 ## Step 7: Merge Branches
