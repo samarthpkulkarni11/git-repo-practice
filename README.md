@@ -11,7 +11,8 @@ This repository is being used for practicing Git-related commands, starting from
 - [Branching](#branching)  
 - [Committing Changes](#committing-changes)  
 - [Log, Revert, and Reset Commits](#log-revert-and-reset-commits)  
-- [Working with Remote Repositories](#working-with-remote-repositories)  
+- [Working with Remote Repositories](#working-with-remote-repositories)
+- [Stashing_Changes_Before_Commit](#stashing-changes-before-commit)
 - [Merging](#merging)  
 - [Rebasing](#rebasing)  
 - [Conclusion](#conclusion)   
@@ -153,8 +154,46 @@ Before getting started, make sure you have:
    ```bash  
    git revert <commit_hash>              
    ```
+
+## Step 6: Stashing Changes Before Commit
+
+1. To stash the changes under a particular branch
+
+   ```bash  
+   git stash     
+   ```
+
+2. Stashing with a message 
+
+   ```bash  
+   git stash push -m "stash message"        
+   ```
    
-## Step 6: Merge Branches
+3. To check on the stash list
+
+   ```bash  
+   git stash list          
+   ```
+
+4. To apply back the latest stash
+
+   ```bash  
+   git stash pop          
+   ```
+
+5. To apply back a specific stash, from the stash list
+
+   ```bash  
+   git stash apply stash@{#n} - here the #n will be denoting the stash index.          
+   ```
+
+6. To drop the stash from the list
+
+   ```bash  
+   git stash drop stash@{n} - here the #n will be denoting the stash index.          
+   ```
+
+## Step 7: Merge Branches
 
 1. Switch to the branch you want to merge into (e.g., ```main```)
    
@@ -174,7 +213,7 @@ Before getting started, make sure you have:
    git commit
    ```
 
-## Step 7: Rebasing
+## Step 8: Rebasing
 
 1. Switch to the branch you want to rebase (e.g., ```feature-branch```)
    
