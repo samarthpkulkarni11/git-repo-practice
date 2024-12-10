@@ -127,7 +127,13 @@ Before getting started, make sure you have:
    git log --oneline        
    ```
    
-3. Log for a Specific Author
+3. To see the differences for files that have been staged for commit
+
+   ```bash  
+   git diff --staged       
+   ```
+   
+4. Log for a Specific Author
    
    Displays changes in the working directory that have not been staged.
 
@@ -135,13 +141,13 @@ Before getting started, make sure you have:
    git log --author="Author Name"          
    ```
    
-4. View Uncommitted Changes
+5. View Uncommitted Changes
 
    ```bash  
    git diff          
    ```
    
-5. Undoing Commits and Reverting
+6. Undoing Commits and Reverting
 
    Undo the Last Commit (Keep Changes)
 
@@ -149,13 +155,13 @@ Before getting started, make sure you have:
    git reset --soft HEAD~1            
    ```
 
-   Undo the Last Commit (Discard Changes)
+7. Undo the Last Commit (Discard Changes)
 
    ```bash  
    git reset --hard HEAD~1            
    ```
 
-   Revert a Specific Commit
+8. Revert a Specific Commit
 
    ```bash  
    git revert <commit_hash>              
