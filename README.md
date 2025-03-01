@@ -96,6 +96,12 @@ Before getting started, make sure you have:
    ```bash  
    git commit --amend --no-edit  
    ```
+   
+6. Reword, Drop, Squash and Edit Raised Commits
+
+   ```bash  
+   git rebase -i HEAD~n -> n here is number of commits
+   ```
 
 ## Step 4: Connect to a Remote Repository
 
