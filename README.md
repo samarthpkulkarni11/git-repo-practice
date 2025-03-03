@@ -205,7 +205,13 @@ Before getting started, make sure you have:
    git stash apply stash@{#n} - {here the #n will be denoting the stash index}.          
    ```
 
-6. To drop the stash from the list
+   **Note** - Here there could be a catch of having an error with the above command mentioning as **"Unknown switch option -e"**. To counter that we will use the command
+
+   ```bash  
+   git stash apply "stash@{#n}" - {here the #n will be denoting the stash index}.          
+   ```
+
+7. To drop the stash from the list
 
    ```bash  
    git stash drop stash@{n} - {here the #n will be denoting the stash index}.          
