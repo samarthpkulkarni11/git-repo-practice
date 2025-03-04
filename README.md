@@ -102,14 +102,8 @@ Before getting started, make sure you have:
    ```bash  
    git rebase -i HEAD~n -> n here is number of commits
    ```
-
-7. To get the list of commits with single line summary
    
-   ```bash  
-   git log --oneline
-   ```
-   
-8. To get more details with indexes, commit ID, and general info on commits made for a particular repo
+7. To get more details with indexes, commit ID, and general info on commits made for a particular repo
 
    ```bash  
    git reflog
