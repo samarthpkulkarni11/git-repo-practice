@@ -112,7 +112,19 @@ Before getting started, make sure you have:
 8. To check changes between commits, commit and working tree
 
     ```bash  
-   git-diff
+   git diff
+   ```
+
+9. To reset the branch to a particular commit or origin
+
+    ```bash  
+   git reset --hard <commitID>
+   ```
+    
+  or reset back to origin
+
+   ```bash  
+   git reset --hard origin/<branch-name>
    ```
 
 ## Step 4: Connect to a Remote Repository
