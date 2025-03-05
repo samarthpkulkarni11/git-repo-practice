@@ -1,4 +1,4 @@
-# GitHub Commands Practice  
+# GitHub Commands
 
 This repository is being used for practicing Git-related commands, starting from creating a repository to advanced workflows like merging and rebasing branches.  
 
@@ -108,7 +108,13 @@ Before getting started, make sure you have:
    ```bash  
    git reflog
    ```
-      
+
+8. To check changes between commits, commit and working tree
+
+    ```bash  
+   git-diff
+   ```
+
 ## Step 4: Connect to a Remote Repository
 
 1. Create a repository on GitHub.
