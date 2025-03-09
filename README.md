@@ -85,15 +85,15 @@ Before getting started, make sure you have:
 
 ## Step 3: Make changes and commit
 
-1.  Edit files or create new ones in the branch.
+1. Edit files or create new ones in the branch.
 
-2.  Stage the changes
+2. Stage the changes
 
 ```bash
 git add . {adds all tracked changes at once}
 ```
 
-3.  Commit the changes
+3. Commit the changes
 
 ```bash
 git commit -m "Add new feature"
