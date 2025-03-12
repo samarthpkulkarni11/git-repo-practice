@@ -1,6 +1,6 @@
 # GitHub Commands
 
-This repository is being used for practicing Git-related commands, starting from creating a repository to advanced workflows like merging and rebasing branches.
+This repository is being used for practicing Git-related commands, starting from creating a repository to advanced workflows like merging and rebasing branches. It includes different commands in flow for different git operations as given below.
 
 ---
 
