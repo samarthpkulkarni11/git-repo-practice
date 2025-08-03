@@ -184,7 +184,13 @@ git reset --hard origin/<branch-name>
    git diff
    ```
 
-6. Undoing Commits and Reverting
+6. To view how many changes are committed from the files (just a highlight) 
+
+   ```bash
+   git show --stat
+   ```
+
+7. Undoing Commits and Reverting
 
    Undo the Last Commit (Keep Changes)
 
@@ -192,13 +198,13 @@ git reset --hard origin/<branch-name>
    git reset --soft HEAD~1
    ```
 
-7. Undo the Last Commit (Discard Changes)
+8. Undo the Last Commit (Discard Changes)
 
    ```bash
    git reset --hard HEAD~1
    ```
 
-8. Revert a Specific Commit
+9. Revert a Specific Commit
 
    ```bash
    git revert <commit_hash>
